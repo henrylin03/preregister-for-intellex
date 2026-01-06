@@ -1,125 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css -->
+    <link rel="stylesheet" href="./css/normalise.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/index.css" />
 
-  <!-- link css -->
-  <link rel="stylesheet" href="./css/normalise.css">
-  <link rel="stylesheet" href="./css/global.css">
-  <link rel="stylesheet" href="./css/index.css">
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
 
-  <!-- favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
-  <link rel="manifest" href="./assets/favicon/site.webmanifest">
+    <!-- seo -->
+    <title>
+      Intellex | Join our waitlist to get matched to a career mentor
+    </title>
+    <meta
+      name="description"
+      content="Join the waitlist for Intellex Academy, a web app that matches you with career mentors to better understand an industry, develop new and improve existing skills, and get that next job in the team, company, and industry you've been interested in. While the main site is being built, this page captures users' expressions of interest."
+    />
+    <meta
+      name="keywords"
+      content="mentor,mentee,career,guidance,guide,intellex,academy,industry,interview,jobs,job,company"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Intellex: Join our waitlist to get matched to a career mentor"
+    />
+    <meta property="og:url" content="https://intellex.co" />
+    <meta property="og:image" content="./assets/branding.svg" />
+    <meta
+      property="og:description"
+      content="Join the waitlist for Intellex Academy, a web app that matches you with career mentors to better understand an industry, develop new and improve existing skills, and get that next job in the team, company, and industry you've been interested in. While the main site is being built, this page captures users' expressions of interest."
+    />
 
-  <!-- seo -->
-  <title>Intellex | Join our waitlist to get matched to a career mentor</title>
-  <meta name="description"
-    content="Join the waitlist for Intellex Academy, a web app that matches you with career mentors to better understand an industry, develop new and improve existing skills, and get that next job in the team, company, and industry you've been interested in. While the main site is being built, this page captures users' expressions of interest.">
-  <meta name="keywords"
-    content="mentor,mentee,career,guidance,guide,intellex,academy,industry,interview,jobs,job,company">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Intellex: Join our waitlist to get matched to a career mentor">
-  <meta property="og:url" content="https://intellex.co">
-  <meta property="og:image" content="./assets/branding.svg">
-  <meta property="og:description"
-    content="Join the waitlist for Intellex Academy, a web app that matches you with career mentors to better understand an industry, develop new and improve existing skills, and get that next job in the team, company, and industry you've been interested in. While the main site is being built, this page captures users' expressions of interest.">
+    <!-- link js -->
+    <script type="module" src="/js/main.js"></script>
+  </head>
 
-  <!-- link js -->
-  <script type="module" src="./js/main.js"></script>
-</head>
-
-<body>
-  <header>
-    <a href="/">
-      <div class="branding">
-        <figure class="logo">
-          <img src="./assets/logo-dark.webp" alt="Intellex logo">
-        </figure>
-        <h2>
-          <span class="smaller">Intellex</span>
-          <br>
-          Academy
-        </h2>
-      </div>
-    </a>
-
-    <article class="switch-language">
-      <button type="button" class="switch-language-button" data-language="english">EN</button>
-      <button type="button" class="switch-language-button" data-language="simplifiedChinese">简</button>
-    </article>
-  </header>
-
-  <main>
-    <div class="grid">
-      <div class="text-container">
-        <hgroup>
-          <h3>
-            <span lang="en">Ready to level up your career?</span>
-            <span lang="zh">对职业发展的下一步充满期待？</span>
-          </h3>
-          <h1>
-            <span lang="en">Match with a mentor who gets you</span>
-            <span lang="zh">找到懂你的导师</span>
-          </h1>
-        </hgroup>
-        <p lang="en">Join our waitlist and be the first to access one on one mentoring, interview preparation, and
-          more from
-          industry experts!</p>
-        <p lang="zh">立即加入等候名单，优先获取导师配对机会，传授多年职场经验，帮你提升职业技能</p>
-        <div class="button-group">
-          <button type="button" class="primary" id="join-waitlist">
-            <span lang="en">Join Waitlist</span>
-            <span lang="zh">加入等候名单</span>
-          </button>
-          <button type="button" class="secondary" id="email">
-            <span lang="en">Email Us</span>
-            <span lang="zh">发送邮件</span>
-          </button>
+  <body>
+    <header>
+      <a href="/">
+        <div class="branding">
+          <figure class="logo">
+            <img src="./assets/logo-dark.webp" alt="Intellex logo" />
+          </figure>
+          <h2>
+            <span class="smaller">Intellex</span>
+            <br />
+            Academy
+          </h2>
         </div>
+      </a>
+    </header>
+
+    <main>
+      <div class="grid">
+        <div class="text-container">
+          <hgroup>
+            <h3>
+              <span lang="en">Ready to level up your career?</span>
+              <span lang="zh">对职业发展的下一步充满期待？</span>
+            </h3>
+            <h1>
+              <span lang="en">Match with a mentor who gets you</span>
+              <span lang="zh">找到懂你的导师</span>
+            </h1>
+          </hgroup>
+          <p lang="en">
+            Join our waitlist and be the first to access one on one mentoring,
+            interview preparation, and more from industry experts!
+          </p>
+          <p lang="zh">
+            立即加入等候名单，优先获取导师配对机会，传授多年职场经验，帮你提升职业技能
+          </p>
+          <div class="button-group">
+            <button type="button" class="primary" id="join-waitlist">
+              <span lang="en">Join Waitlist</span>
+              <span lang="zh">加入等候名单</span>
+            </button>
+            <button type="button" class="secondary" id="email">
+              <span lang="en">Email Us</span>
+              <span lang="zh">发送邮件</span>
+            </button>
+          </div>
+        </div>
+        <figure>
+          <img
+            src="./assets/hero.png"
+            alt="Mentees smiling because they've found the mentor that matches the skillsets they are trying to develop"
+          />
+        </figure>
       </div>
-      <figure>
-        <img src="./assets/hero.png"
-          alt="Mentees smiling because they've found the mentor that matches the skillsets they are trying to develop">
-      </figure>
-    </div>
-  </main>
+    </main>
 
-  <footer>
-    <small class="copyright">© 2024 Intellex Academy | ABN 55 668 589 900. All Rights Reserved.</small>
-    <div class="links">
-      <ul>
-        <li>
-          <a href="./privacy-policy.html">
-            <span lang="en">Privacy Policy</span>
-            <span lang="zh">隐私政策</span>
-          </a>
-        </li>
-        <li>
-          <a href="./terms-and-conditions.html">
-            <span lang="en">Terms & Conditions</span>
-            <span lang="zh">条款与条件</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/company/intellexgroup/" target="_blank" rel="external">
-            <img src="./assets/linkedin.svg"
-              alt="LinkedIn icon which will take you to Intellex Academy's LinkedIn page">
-          </a>
-        </li>
-      </ul>
-    </div>
-  </footer>
+    <footer>
+      <small class="copyright"
+        >© 2024 Intellex Academy | ABN 55 668 589 900. All Rights
+        Reserved.</small
+      >
+      <div class="links">
+        <ul>
+          <li>
+            <a href="./privacy-policy.html">
+              <span lang="en">Privacy Policy</span>
+              <span lang="zh">隐私政策</span>
+            </a>
+          </li>
+          <li>
+            <a href="./terms-and-conditions.html">
+              <span lang="en">Terms & Conditions</span>
+              <span lang="zh">条款与条件</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/company/intellexgroup/"
+              target="_blank"
+              rel="external"
+            >
+              <img
+                src="./assets/linkedin.svg"
+                alt="LinkedIn icon which will take you to Intellex Academy's LinkedIn page"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
 
-  <dialog>
-    <iframe id="google-forms"
-      src="https://docs.google.com/forms/d/e/1FAIpQLScIm03IfDkwEId4CVHcoOFZYia_HXLTSPLg6LVXtpsAPck-zg/viewform?embedded=true"></iframe>
-  </dialog>
-
-</body>
-
+    <dialog>
+      <iframe
+        id="google-forms"
+        src="https://docs.google.com/forms/d/e/1FAIpQLScIm03IfDkwEId4CVHcoOFZYia_HXLTSPLg6LVXtpsAPck-zg/viewform?embedded=true"
+      ></iframe>
+    </dialog>
+  </body>
 </html>

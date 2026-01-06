@@ -116,39 +116,6 @@ h2>.smaller {
   width: 60px;
 }
 
-/* HEADER: TRANSLATE PAGE */
-.switch-language {
-  display: flex;
-  align-items: center;
-}
-
-.switch-language-button {
-  font-weight: normal;
-  font-size: 1rem;
-  text-align: center;
-  padding: 12px;
-  width: 52px;
-}
-
-.switch-language> :first-child {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-.switch-language> :last-child {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-.switch-language-button.selected {
-  background-color: var(--blue-500);
-  color: white;
-}
-
-.switch-language-button:not(.selected):hover {
-  background-color: #d0d3d9;
-}
-
 /* MAIN */
 main {
   display: grid;
