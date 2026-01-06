@@ -4,7 +4,7 @@ const switchLanguageButtons = document.querySelectorAll(
 
 const renderPageInPreferredLanguage = () => {
   const preferredLanguage =
-    localStorage.getItem("preferredLanguage") || "english";
+    localStorage.getItem("preferredLanguage") ?? "english";
   const variableLanguageElements = {
     english: document.querySelectorAll("body [lang='en']"),
     simplifiedChinese: document.querySelectorAll("body [lang='zh']"),
